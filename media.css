@@ -1,0 +1,26 @@
+/*Media queries*/
+
+@media screen and (max-width:426px) {
+
+    .container {
+        padding: 30px 10px;
+    }
+    .hero-section {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .profile-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    #about-us-img img {
+        width: 250px;
+        height: 250px;
+    }
+}
